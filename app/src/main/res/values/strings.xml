@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RxExample</string>
+    <string name="api_cat_url">"http://thecatapi.com/api/images/get?format=src&amp;results_per_page=1"</string>
+
+</resources>
