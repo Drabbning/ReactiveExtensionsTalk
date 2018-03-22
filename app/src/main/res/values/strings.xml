@@ -2,4 +2,8 @@
     <string name="app_name">RxExample</string>
     <string name="api_cat_url">"http://thecatapi.com/api/images/get?format=src&amp;results_per_page=1"</string>
 
+    <string name="label_rx">RxJavaActivity</string>
+    <string name="label_functional">FunctionalActivity</string>
+    <string name="label_async">AsyncTaskActivity</string>
+    <string name="label_runnable">RunnableActivity</string>
 </resources>

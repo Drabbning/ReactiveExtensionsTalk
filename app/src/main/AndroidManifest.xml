@@ -12,44 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <!--<intent-filter>-->
-            <!--<action android:name="android.intent.action.MAIN"/>-->
-
-            <!--<category android:name="android.intent.category.LAUNCHER"/>-->
-            <!--</intent-filter>-->
-        </activity>
-
-        <activity
-            android:name=".RunnableActivity"
-            android:label="RunnableActivity">
-
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN"/>-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
-            <!--</intent-filter>-->
-        </activity>
-
-        <activity
-            android:name=".AsyncTaskActivity"
-            android:label="AsyncTaskActivity">
-
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN"/>-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
-            <!--</intent-filter>-->
-        </activity>
-
-        <activity
-            android:name=".RxJavaActivity"
-            android:label="RxJavaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".RunnableActivity"
+            android:label="@string/label_runnable"/>
+
+        <activity
+            android:name=".AsyncTaskActivity"
+            android:label="@string/label_async"/>
+
+        <activity
+            android:name=".RxJavaActivity"
+            android:label="@string/label_rx"/>
+
+        <activity
+            android:name=".FunctionalActivity"
+            android:label="@string/label_functional"/>
     </application>
 
 </manifest>

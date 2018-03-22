@@ -19,9 +19,9 @@ public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_cats);
 
-        cats = findViewById(R.id.main_imageview);
+        cats = findViewById(R.id.cats_imageview);
         cats.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
